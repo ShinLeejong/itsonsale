@@ -3,7 +3,6 @@ import "./App.module.scss";
 import styles from "./App.module.scss";
 import Section from "./components/main/Section";
 import Sidebar from "./components/main/Sidebar";
-import Pad from "./components/reusable/Pad";
 
 const contents = [<Sidebar />, <Section />];
 

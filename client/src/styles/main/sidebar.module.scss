@@ -5,6 +5,15 @@
   background-color: $sidebar__bg;
   position: sticky;
   top: 0;
-  overflow-y: scroll;
+  overflow: scroll;
   border-right: 1px solid #ebeef1;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .storeName {
+      font-weight: 700;
+    }
+  }
 }

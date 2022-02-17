@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "../../styles/header/header.module.scss";
 
 const LOGO = `It's on Sale`;
@@ -8,7 +9,9 @@ const Header = () => {
   return (
     <header className={styles.headerWrapper}>
       <div className={styles.headerContainer}>
-        <h3>{LOGO}</h3>
+        <h3>
+          <Link to="/">{LOGO}</Link>
+        </h3>
         <nav>
           {NAV_CONTENTS.map((content) => (
             <span key={content}>{content}</span>
