@@ -4,8 +4,8 @@
 
 ### Stack
 
-> - FE: HTML, CSS, JS, SCSS, TS, React, FontAwesome
-> - BE: NodeJS, Express, MongoDB, GraphQL
+> - FE: HTML, CSS, JS, SCSS, TS, React, FontAwesome, react-router-dom, Axios
+> - BE: NodeJS, Express, MongoDB, GraphQL, Puppeteer
 
 ### 편의점
 
