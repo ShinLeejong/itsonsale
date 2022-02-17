@@ -1,22 +1,19 @@
-import axios from "axios";
-import { useState } from "react";
-import "./App.css";
+import { Fragment } from "react";
+import "./App.module.scss";
+import styles from "./App.module.scss";
+import Section from "./components/main/Section";
+import Sidebar from "./components/main/Sidebar";
+import Pad from "./components/reusable/Pad";
+
+const contents = [<Sidebar />, <Section />];
 
 function App() {
-  const [msg, setMsg] = useState(undefined);
-  const onClickFetch = async () => {
-    try {
-      const res = await axios.get("http://localhost:8080/");
-      setMsg(res.data);
-    } catch (e) {
-      console.error(e);
-    }
-  };
   return (
-    <div className="App">
-      <button onClick={onClickFetch}>Fetch</button>
-      <span>{msg}</span>
-    </div>
+    <main className={styles.mainContainer}>
+      {contents.map((content, idx) => (
+        <Fragment key={idx}>{content}</Fragment>
+      ))}
+    </main>
   );
 }
 

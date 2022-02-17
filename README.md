@@ -4,7 +4,22 @@
 
 ### Stack
 
-> - FE: HTML, CSS, JS, SCSS, TS, React,
+> - FE: HTML, CSS, JS, SCSS, TS, React, FontAwesome
 > - BE: NodeJS, Express, MongoDB, GraphQL
+
+### 편의점
+
+> - CU, GS25, 7-Eleven, Emart24, Ministop
+
+### Skill
+
+> - Modal
+> - Infinite Scroll
+
+### Device
+
+> - Desktop
+> - Tabelt
+> - Mobile
 
 ### Demo

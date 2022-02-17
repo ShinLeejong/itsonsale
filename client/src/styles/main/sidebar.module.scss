@@ -1,0 +1,10 @@
+@import "../variable.module.scss";
+
+.sidebarContainer {
+  flex: 2;
+  background-color: $sidebar__bg;
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  border-right: 1px solid #ebeef1;
+}
