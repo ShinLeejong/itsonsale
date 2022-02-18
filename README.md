@@ -5,7 +5,7 @@
 ### Stack
 
 > - FE: HTML, CSS, JS, SCSS, TS, React, FontAwesome, react-router-dom, Axios
-> - BE: NodeJS, Express, MongoDB, GraphQL, Puppeteer
+> - (BE: NodeJS, Express, MongoDB, GraphQL, Puppeteer) -> 나중에 생각하자.
 
 ### 편의점
 
@@ -23,3 +23,10 @@
 > - Mobile
 
 ### Demo
+
+##### 0218
+
+- Product Component 만듬.
+- Sidebar sticky
+- Section flex-wrap: wrap
+- 내일 할 것: Sidebar에 검색 창 넣기, Entry page에 넣을 것 생각하기, 미디어쿼리 생각해서 breakpoint 나누기
