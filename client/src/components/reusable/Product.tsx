@@ -20,7 +20,10 @@ const Product = ({
   color__bg,
 }: Props) => {
   return (
-    <div className={styles.productContainer}>
+    <div
+      className={styles.productContainer}
+      style={{ border: `1px solid ${color__bg}` }}
+    >
       <div
         className={styles.companyContainer}
         style={{ backgroundColor: color__bg }}
