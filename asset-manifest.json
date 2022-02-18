@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itsonsale/static/css/main.01767987.css",
+    "main.js": "/itsonsale/static/js/main.c2f4d469.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/itsonsale/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/itsonsale/index.html",
+    "main.01767987.css.map": "/itsonsale/static/css/main.01767987.css.map",
+    "main.c2f4d469.js.map": "/itsonsale/static/js/main.c2f4d469.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/itsonsale/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01767987.css",
+    "static/js/main.c2f4d469.js"
+  ]
+}
