@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "../../styles/reusable/store.module.scss";
 
@@ -10,13 +10,16 @@ interface Props {
 }
 
 const Store = ({ children, color__font, color__bg, get }: Props) => {
-  const onClickStore = async () => {
+  /* const onClickStore = async () => {
     try {
       const res = await axios.get(`http://localhost:8080/${get}`);
       console.log(res);
     } catch (e) {
       console.error(e);
     }
+  }; */
+  const onClickStore = () => {
+    console.log(get);
   };
   return (
     <Link to={`/${get}`}>

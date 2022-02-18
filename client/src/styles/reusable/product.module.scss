@@ -1,0 +1,61 @@
+.productContainer {
+  border: 1px solid #cfd7dd;
+  border-radius: 6px;
+  width: 200px;
+
+  .companyContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+    border-bottom: 1px solid black;
+    border-radius: 6px 6px 0 0;
+
+    .company {
+      font-weight: 700;
+      font-size: 1.125rem;
+    }
+
+    .event {
+      color: white;
+      font-weight: 500;
+    }
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 0 0 6px 6px;
+    background-color: white;
+
+    .imgContainer {
+      img {
+        max-width: 180px;
+      }
+    }
+
+    .nameAndPrice {
+      display: flex;
+      flex-direction: column;
+
+      .name {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 0.875rem;
+      }
+
+      .priceAndReview {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .price {
+          font-size: 1.125rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
