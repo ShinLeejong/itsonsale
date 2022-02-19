@@ -22,10 +22,10 @@ const Store = ({ children, color__font, color__bg, get }: Props) => {
     console.log(get);
   };
   return (
-    <Link to={`/${get}`}>
+    <Link to={`itsonsale/${get}`}>
       <div
         style={{ color: color__font, backgroundColor: color__bg }}
-        className={styles.storeContainre}
+        className={styles.storeContainer}
         role="button"
         onClick={onClickStore}
       >

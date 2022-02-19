@@ -1,7 +1,14 @@
-import React from "react";
+import { Outlet, useParams } from "react-router-dom";
 
 const Entry = () => {
-  return <div>Entry</div>;
+  const params = useParams();
+  console.log(params);
+  return (
+    <div>
+      {params.store === undefined && <span>Entry</span>}
+      <Outlet />
+    </div>
+  );
 };
 
 export default Entry;

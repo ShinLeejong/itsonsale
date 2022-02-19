@@ -1,9 +1,9 @@
-import { Fragment, useState } from "react";
-import products from "../../components/products/products.json";
+import { Fragment } from "react";
+import products from "../products/products.json";
 import Product from "../reusable/Product";
 import styles from "../../styles/main/cu.module.scss";
 
-const Cu = () => {
+const ProductList = () => {
   return (
     <>
       <div className={styles.productsContainer}>
@@ -25,4 +25,4 @@ const Cu = () => {
   );
 };
 
-export default Cu;
+export default ProductList;

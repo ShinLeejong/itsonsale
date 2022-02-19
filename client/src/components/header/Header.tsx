@@ -10,7 +10,7 @@ const Header = () => {
     <header className={styles.headerWrapper}>
       <div className={styles.headerContainer}>
         <h3>
-          <Link to="/">{LOGO}</Link>
+          <Link to="/itsonsale">{LOGO}</Link>
         </h3>
         <nav>
           {NAV_CONTENTS.map((content) => (
