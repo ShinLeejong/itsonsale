@@ -29,4 +29,8 @@
 - Product Component 만듬.
 - Sidebar sticky
 - Section flex-wrap: wrap
-- 내일 할 것: Sidebar에 검색 창 넣기, Entry page에 넣을 것 생각하기, 미디어쿼리 생각해서 breakpoint 나누기
+- 앞으로 할 것: Sidebar에 검색 창 넣기, Entry page에 넣을 것 생각하기, 미디어쿼리 생각해서 breakpoint 나누기
+
+##### 0219
+
+- 검색창 넣기

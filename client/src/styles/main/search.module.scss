@@ -1,0 +1,14 @@
+.formContainer {
+  select {
+    width: 100%;
+  }
+
+  .submitContainer {
+    width: 100%;
+    display: flex;
+
+    input {
+      flex: 1;
+    }
+  }
+}

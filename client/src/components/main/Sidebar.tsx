@@ -1,6 +1,7 @@
 import styles from "../../styles/main/sidebar.module.scss";
 import Pad from "../reusable/Pad";
 import Store from "../reusable/Store";
+import Search from "./Search";
 
 const NAV_STORES = [
   { get: "cu", store: "CU", color__font: "#9CC92B", color__bg: "#751385" },
@@ -29,18 +30,21 @@ const Sidebar = () => {
   return (
     <aside className={styles.sidebarContainer}>
       <Pad>
-        <nav>
-          {NAV_STORES.map((store) => (
-            <Store
-              color__bg={store.color__bg}
-              color__font={store.color__font}
-              key={store.store}
-              get={store.get}
-            >
-              <span className={styles.storeName}>{store.store}</span>
-            </Store>
-          ))}
-        </nav>
+        <>
+          <nav>
+            {NAV_STORES.map((store) => (
+              <Store
+                color__bg={store.color__bg}
+                color__font={store.color__font}
+                key={store.store}
+                get={store.get}
+              >
+                <span className={styles.storeName}>{store.store}</span>
+              </Store>
+            ))}
+          </nav>
+          <Search />
+        </>
       </Pad>
     </aside>
   );
