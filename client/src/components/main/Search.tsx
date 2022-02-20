@@ -46,13 +46,16 @@ const Search = () => {
         <option value="2">높은 가격순</option>
       </select>
       <div className={styles.submitContainer}>
-        <input
-          type="text"
-          value={name}
-          name="name"
-          onChange={onChangeSearch}
-        ></input>
-        <button type="submit" onClick={onSubmit}>
+        <label>
+          상품명
+          <input
+            type="text"
+            value={name}
+            name="name"
+            onChange={onChangeSearch}
+          ></input>
+        </label>
+        <button type="submit" aria-label="search" onClick={onSubmit}>
           <i className="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>

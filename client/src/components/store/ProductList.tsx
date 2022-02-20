@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import products from "../products/products.json";
 import Product from "../reusable/Product";
-import styles from "../../styles/main/cu.module.scss";
+import styles from "../../styles/main/productList.module.scss";
 
 const ProductList = () => {
   return (
