@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/itsonsale/static/css/main.a36bcf44.css",
-    "main.js": "/itsonsale/static/js/main.271f7dd8.js",
+    "main.css": "/itsonsale/static/css/main.96b7a75c.css",
+    "main.js": "/itsonsale/static/js/main.cfb5683c.js",
     "static/js/787.c4e7f8f9.chunk.js": "/itsonsale/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/itsonsale/index.html",
-    "main.a36bcf44.css.map": "/itsonsale/static/css/main.a36bcf44.css.map",
-    "main.271f7dd8.js.map": "/itsonsale/static/js/main.271f7dd8.js.map",
+    "main.96b7a75c.css.map": "/itsonsale/static/css/main.96b7a75c.css.map",
+    "main.cfb5683c.js.map": "/itsonsale/static/js/main.cfb5683c.js.map",
     "787.c4e7f8f9.chunk.js.map": "/itsonsale/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a36bcf44.css",
-    "static/js/main.271f7dd8.js"
+    "static/css/main.96b7a75c.css",
+    "static/js/main.cfb5683c.js"
   ]
 }
