@@ -18,16 +18,12 @@ const Store = ({ children, color__font, color__bg, get }: Props) => {
       console.error(e);
     }
   }; */
-  const onClickStore = () => {
-    console.log(get);
-  };
   return (
     <Link to={`itsonsale/${get}`}>
       <div
         style={{ color: color__font, backgroundColor: color__bg }}
         className={styles.storeContainer}
         role="button"
-        onClick={onClickStore}
       >
         {children}
       </div>
