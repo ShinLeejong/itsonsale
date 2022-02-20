@@ -5,7 +5,7 @@
 ### Stack
 
 > - FE: HTML, CSS, JS, SCSS, TS, React, FontAwesome, react-router-dom, Axios
-> - (BE: NodeJS, Express, MongoDB, GraphQL, Puppeteer) -> 나중에 생각하자.
+> - (BE: NodeJS, Express, Mysql, GraphQL, Puppeteer) -> 나중에 생각하자.
 
 ### 편의점
 
@@ -40,4 +40,5 @@
 
 - 처음 불러올 때 20개는 불러와야 될 것 같음(스크롤이 되게 하려고)
 - lighthouse 보면서 성능 최적화
-- Firebase 사용
+- Mysql 사용 -> 그냥 안씀;;
+- 앞으로 할 것: 더미 데이터 사용해서 한무 스크롤 구현 (화요일 전까지 완료)

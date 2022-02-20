@@ -2,19 +2,16 @@ require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const app = express();
 
 const port = parseInt(process.env.PORT);
 
 app.use(cors());
-mongoose
-  .connect(process.env.DB_ADDRESS)
-  .then(() => console.log("mongodb connect"))
-  .catch((err) => console.log(err));
 
-const db = mongoose.connection;
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
 
 app.get("/cu", (req, res) => {
   res.send("Hello CU");
